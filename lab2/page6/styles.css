@@ -1,0 +1,75 @@
+
+a {
+  position: fixed;
+  left: 96%;
+  font-family: "Andale Mono";
+  color: #00118d;
+  display: inline-block;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  writing-mode: vertical-rl;
+  font-size: 20px;
+  text-decoration: none;
+}
+.bg {
+  left: 30%;
+   top: 30%;
+   position: absolute;
+   width:560px;
+   height:315px;
+   background-color: #00118d;
+}
+.home {
+  position: fixed;
+  top: 10%;
+  left: 96%;
+  font-family: "Andale Mono";
+  color: #00118d;
+  display: inline-block;
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+writing-mode: vertical-rl;
+font-size: 20px;
+}
+.previous {
+  position: fixed;
+  left: 96%;
+  font-family: "Andale Mono";
+  color: #00118d;
+  display: inline-block;
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+writing-mode: vertical-rl;
+font-size: 20px;
+top: 80%;
+}
+
+iframe { 
+  left: 30%;
+   top: 30%;
+   position: absolute;
+   }
+
+iframe {
+  
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    -webkit-filter: opacity(.4);
+  filter: opacity(.4);
+  }
+  .body-text-wrapper {
+    width:560px;
+   height:315px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    pointer-events: none;
+    font-size:20px; 
+  letter-spacing:0.5px; 
+  text-align: center;
+  font-weight: 500; 
+  text-align:center;
+  font-family: "Andale Mono" ;
+  font-style: unset;
+  color: #00118d;
+  }
